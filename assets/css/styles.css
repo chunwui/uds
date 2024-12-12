@@ -1,0 +1,32 @@
+body {
+  --bs-body-color: var(--bs-white);
+  --bs-primary: #1c3dca;
+  --bs-primary-rgb: 28,61,202;
+  --bs-info: #02aaff;
+  --bs-info-rgb: 2,170,255;
+  --bs-dark: #131416;
+  --bs-dark-rgb: 19,20,22;
+  --bs-body-font-weight: 300;
+  --bs-body-bg: var(--bs-dark);
+}
+
+.container {
+  max-width: 960px;
+  height: 100%;
+}
+
+.text-badge {
+  padding: .1em .4em;
+  background: var(--bs-dark);
+  max-width: 400px;
+  background-color: var(--sgds-purple-color);
+}
+
+.banner {
+  padding: 2em 1em;
+}
+
+.projects {
+  --bs-gutter-y: 1.5rem;
+}
+
